@@ -1,5 +1,14 @@
-clear;
-A=[2,-1,0;-1,2,-1;0,-1,2];
+rows = 3;
+cols = 3;
+A = zeros(rows,cols);
+disp("Inputs to all matrices to be sequential left to right, top to bottom");
+disp("Inputs to A begin");
+for i = 1:rows
+    for j = 1:cols
+        A(i,j) = input("value for A:")
+    end
+end
+
 n=length(A(1,:));
 Aug=[A, eye(n,n)];
 //Forward Elimination
