@@ -7,11 +7,8 @@ PES1201800293
 4I (CS)
 
 Assignment 1:
-
   1. GaussianElimination
-
   2. LUDecomposition and LUSolve
-
   3. GaussJordan and GaussJordanAlternate
 
 Assignment 2:
@@ -20,3 +17,8 @@ Assignment 2:
   
 Assignment 3:
   1. Projections by Least Squares
+
+Assignment 4:
+  1. Gram-Scmidt Orthogonalization
+  2. Eigen Values and Eigen Vectors
+  3. Largest Eigen Value - Power Method
